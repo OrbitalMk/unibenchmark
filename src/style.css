@@ -1,0 +1,52 @@
+#init-button {
+  background: #1E88E5;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+
+#init-button:hover {
+  background: #42A5F5;
+}
+
+#box {
+  background: white;
+  margin: 50px;
+  border: none;
+  border-radius: 20px;
+  padding: 50px 70px 50px 70px;
+}
+
+#box-label-info {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#label-bench {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.info > .title {
+  font-weight: 500;
+}
+
+.info > .label {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.grid-frame {
+  margin: 5px;
+}
+
+window {
+  background: linear-gradient(45deg, #1E88E5, #42A5F5);
+}

@@ -1,0 +1,7 @@
+data/org.gnome.unibenchmark.desktop.in
+data/org.gnome.unibenchmark.appdata.xml.in
+data/org.gnome.unibenchmark.gschema.xml
+src/unibenchmark-window.ui
+src/main.c
+src/unibenchmark-window.c
+

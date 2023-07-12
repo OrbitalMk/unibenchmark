@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/unibenchmark">
+    <file>templates/unibenchmark-window.ui</file>
+    <file>templates/info-unibenchmark.ui</file>
+    <file>style.css</file>
+
+    <!-- img -->
+    <file>img/uni.png</file>
+    <file>img/os-24.png</file>
+    <file>img/cpu-24.png</file>
+    <file>img/ram-24.png</file>
+    <file>img/storage-24.png</file>
+  </gresource>
+</gresources>
