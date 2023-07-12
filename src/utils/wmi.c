@@ -118,7 +118,7 @@ wmi_ram(IEnumWbemClassObject *results, char *str, gsize size) {
 
         // SUCCEEDED(hr)
         gint64 out = _wtoi64 (capacity.bstrVal);
-        g_snprintf (str, size, "%.2fGB %dMHz %ls", out / pow(2, 30), speed.uintVal, manufacturer.bstrVal);
+        g_snprintf (str, size, "%.2fGB %dMHz %ls\n", out / pow(2, 30), speed.uintVal, manufacturer.bstrVal);
         VariantClear(&capacity);
         VariantClear(&speed);
         VariantClear(&manufacturer);
