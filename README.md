@@ -1,4 +1,4 @@
-# UNIbenchmark
+# unibenchmark
 
 Project for the class **Arquitectura de maquinas y computadoras III**.
 
