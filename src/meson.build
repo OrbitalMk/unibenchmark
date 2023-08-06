@@ -1,9 +1,11 @@
 unibenchmark_sources = [
     'main.c',
+    'gtkobjects/unibenchmark-window.c',
+    'gtkobjects/info-unibenchmark.c',
+    'utils/benchmark.c',
+    'utils/system-info.c',
+    'utils/wmi.c',
 ]
-
-subdir('utils')
-subdir('gtkobjects')
 
 unibenchmark_deps = [
     dependency('gio-2.0', version: '>= 2.50'),
